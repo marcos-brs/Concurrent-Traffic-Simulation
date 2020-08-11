@@ -1,8 +1,19 @@
-# Concurrent Traffic Simulation
+<h1 align="center">Welcome to Concurrent Traffic Simulation Project 👋</h1>
+<p>
+  <a href="LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/mbrsantana" target="_blank">
+    <img alt="Twitter: mbrsantana" src="https://img.shields.io/twitter/follow/mbrsantana.svg?style=social" />
+  </a>
+</p>
 
-<img src="data/traffic_simulation.gif"/>
+> A multithreaded program made in C++ and OpenCV that simulates traffic
 
-Throughout the Concurrency course, you have been developing a traffic simulation in which vehicles are moving along streets and are crossing intersections. However, with increasing traffic in the city, traffic lights are needed for road safety. Each intersection will therefore be equipped with a traffic light. In this project, you will build a suitable and thread-safe communication protocol between vehicles and intersections to complete the simulation. Use your knowledge of concurrent programming (such as mutexes, locks and message queues) to implement the traffic lights and integrate them properly in the code base.
+![](.github/traffic_simulation.gif)
+
+A traffic simulation in which vehicles move along the streets and cross intersections. With the increase in traffic in the city, traffic lights are treated for traffic safety. Each intersection is therefore equipped with a traffic light. In this project, an adequate thread-safe communication protocol between vehicles and intersections was implemented to complete a simulation. Simultaneous programming concepts (such as mutexes, locks and message queues) were used to implement the traffic lights and integrate them into the code base.
+
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
@@ -24,3 +35,20 @@ Throughout the Concurrency course, you have been developing a traffic simulation
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./traffic_simulation`.
+
+## Author
+
+👤 **Marcos Santana**
+
+* Twitter: [@mbrsantana](https://twitter.com/mbrsantana)
+* Github: [@zerocoolbr](https://github.com/zerocoolbr)
+* LinkedIn: [@marcosbrs](https://linkedin.com/in/marcosbrs)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [Marcos Santana](https://github.com/zerocoolbr).<br />
+This project is [MIT](LICENSE) licensed.
